@@ -1,0 +1,24 @@
+# 本機設定與環境
+.env
+.env.*
+!.env.example
+.venv/
+
+# Python 與測試產物
+__pycache__/
+*.py[cod]
+.pytest_cache/
+/.pytest-*/
+
+# 本機 SQLite 與備份
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+backup/
+
+# 先前產出的本機 Diff
+/meme-reranking.patch
+/meme-controlled-retrieval.patch
